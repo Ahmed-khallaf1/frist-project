@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    width: 100%;
+    height: 620px;
+    background-image: url(p.png);
+    background-size: 100% 100%;
+    
+
+}
+
+.home .nav {
+    background-color:cornflowerblue;
+    width: 100%;
+     position: fixed; 
+     /* overflow: auto;  */
+}
+
+.home .nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.home .nav ul a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.home .nav ul li {
+     /* float: right;   */
+    margin: 15px;
+    display: inline-block;
+    /* text-align: center; */
+    
+    
+    
+
+}
+
+.home .caption1 {
+    text-align: center;
+}
+
+.home .caption1 img {
+    width: 400px;
+    
+}
+.home .nav a:hover{
+    background-color: burlywood;
+    border-radius: 15px;
+}
+button{
+    width: 25%;
+    border: 1 px solid brown;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: cornflowerblue;
+    color: white;
+}
+/* /////end first task///// */
+/* /////end first task///// */
+/* /////end first task///// */
+/* /////end first task///// */
+/* /////end first task///// */
+/* /////end first task///// */
+/* /////end first task///// */
+.profile {
+    width: 25%;
+    height: 400px;
+    background-image: url(instasize_190204043902.png);
+    background-size: 100% 100%;
+    margin: 50px auto;
+    text-align: center;
+    position: relative; 
+    overflow: hidden;   
+     float: left; 
+}   .profile .caption {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(100, 99, 99, .4);
+     position: absolute; 
+     top: 100%;
+    left: 100%;
+    transition: all 1s; 
+}
+.profile:hover .caption{
+    top: 00%;
+    left: 00%;
+    transform: rotate(360deg);
+}
+
+.profile .caption h3 {
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.profile .caption p {
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.profile .caption button {
+    width: 50%;
+    border: 1 px solid brown;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    font-size: 26px;
+}
+
+ h1::before {
+    content: "";
+    width: 45%;
+    height: 2px;
+    background-color: tomato;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+}
+
+h1::after {
+    content: "";
+    width: 45%;
+    height: 2px;
+    background-color: tomato;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+}
+.profile .caption h3{
+    background-color: darkgrey;
+    color: crimson;
+}
+.profile .caption p{
+    color:indigo;
+}
